@@ -1,68 +1,64 @@
 
-jQuery PrintMe
-==============
+# jQuery PrintMe
+
 
 Yes! Another jQuery plugin for print any page element
 
 PrintMe is a lightweight Plugin to print any html element.
 
 
-Why PrintMe?
-============
+# Why PrintMe?
+
 
 I'm bored and a plugin was born. It is the story of my life. I'm bored, plugin, again and again ...
 
-Usage
-=====
+# Usage
 
-Step 1 - Include your Javascript
---------------------------------
+
+## Step 1  Include your Javascript
+
 
 printMe is a jQuery plugin, so you gotta have that first:
 
-	A jQuery base script: src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"
+	A jQuery base script: src"//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"
 
-Then, just include jquery-printme.js, wherever it lives on your server:
+Then, just include jqueryprintme.js, wherever it lives on your server:
 
-	A printMe script: src="path_to/jquery-printme.js"
+	A printMe script: src"path_to/jqueryprintme.js"
 
-Step 2 - PrintMe!
------------------
+## Step 2  PrintMe!
+
 
 Now you can print any element.
 
-Here are a few examples:
+# Here are a few examples:
 
-Basic:
-~~~~~~
+## Basic:
+
 
 $("#example").printMe();
 
-With external css styles
-~~~~~~~~~~~~~~~~~~~~~~~~
+## With external css styles
+
 
 $("#example").printMe({ "path": "path_to/eternal.css" });
 
-With title
-~~~~~~~~~~
+## With title
+
 
 $("#example").printMe({ "title": "The title" });
 
-Options
--------
-
-Options:
+# Options
 
 	path: External css file location
 	title: The document header title
 
-Examples
-========
+# Examples
 
-Some examples in [a link](http://daniarlandis.es/printMe/)
+Some examples [here](http://wwwdaniarlandis.es/printMe/)
 
-About
-======
+# About
+
 
 PrintMe has been developped by Daniel Arlandis @menusal
 
