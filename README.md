@@ -55,7 +55,7 @@ $("#example").printMe({ "title": "The title" });
 
 # Examples
 
-Some examples [here](http://wwwdaniarlandis.es/printMe/)
+Some examples [here](http://www.daniarlandis.es/printMe/)
 
 # About
 
