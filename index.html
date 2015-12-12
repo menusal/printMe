@@ -21,13 +21,13 @@
 
 		$("#example2").click(function(){
 			$("#dataexample2").printMe({
-				"path" : "example.css"
+				"path" : ["example.css","example2.css"]
 			});
 		});
 
 		$("#example3").click(function(){
 			$("#dataexample3").printMe({
-				"path" : "example.css",
+				"path" : ["example.css"],
 				"title" : "Document title"
 			});
 		});
@@ -107,10 +107,10 @@
 					$("#example").printMe();
 				</code>
 			</p>
-			 <p>With external css styles</p>
+			 <p>With external css styles, add all stylesheets you can need in the array</p>
         	<p>
 				<code>
-					$("#example").printMe({ "path": "path_to/eternal.css" });
+					$("#example").printMe({ "path": ["path_to/eternal.css","path_to/eternal2.css"] });
 				</code>
 			</p>
 			 <p>With title</p>
@@ -128,7 +128,7 @@
 	    <div class="row">
 		    <p>Options:</p>
 		    <ul>
-		    	<li> <b>path:</b> External css file location </li>
+		    	<li> <b>path:</b> Array with a external css file location </li>
 		    	<li> <b>title:</b> The document header title </li>
 		    </ul>
 	    </div>
@@ -214,7 +214,7 @@
 		            	<p>
 							<code>
 								$("#example").printMe({
-									"path": "path_to/eternal.css"
+									"path": ["path_to/eternal.css"]
 								});
 							</code>
 						</p>
@@ -260,7 +260,7 @@
 		            	<p>
 							<code>
 								$("#example").printMe({
-									"path": "path_to/eternal.css",
+									"path": ["path_to/eternal.css"],
 									"title": "Document title"
 								});
 							</code>

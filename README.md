@@ -38,10 +38,10 @@ Now you can print any element.
 
 $("#example").printMe();
 
-## With external css styles
+## With external css styles, add all stylesheets you can need in the array
 
 
-$("#example").printMe({ "path": "path_to/eternal.css" });
+$("#example").printMe({ "path": ["path_to/eternal.css","path_to/eternal2.css"] });
 
 ## With title
 
@@ -50,7 +50,7 @@ $("#example").printMe({ "title": "The title" });
 
 # Options
 
-	path: External css file location
+	path: Array with a external css file location
 	title: The document header title
 
 # Examples
