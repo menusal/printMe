@@ -41,7 +41,7 @@ $("#example").printMe();
 ## With external css styles, add all stylesheets you can need in the array
 
 
-$("#example").printMe({ "path": ["path_to/eternal.css","path_to/eternal2.css"] });
+$("#example").printMe({ "path": ["path_to/external.css","path_to/external2.css"] });
 
 ## With title
 
