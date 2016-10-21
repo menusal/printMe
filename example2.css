@@ -2,7 +2,6 @@ body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
     line-height: 1.42857;
-	-webkit-print-color-adjust: exact;
     color: rgb(51, 51, 51);
 }
 
@@ -34,14 +33,12 @@ table {
     border-top: 0px none;
 }
 .table > thead > tr > th {
-	-webkit-print-color-adjust: exact;
     vertical-align: bottom;
     border-bottom: 2px solid rgb(221, 221, 221);
 }
 
 .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
-    -webkit-print-color-adjust: exact;
-	padding: 8px;
+    padding: 8px;
     line-height: 1.42857;
     vertical-align: top;
     border-top: 1px solid rgb(221, 221, 221);

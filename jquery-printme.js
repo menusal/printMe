@@ -8,7 +8,7 @@
  * http://sam.zoy.org/wtfpl/
  *
  * Date: Mon Feb 10 19:23:00 2014
- * Last modified: Sat Dec 12 22:00:00 2015
+ * Last modified: Fri Oct 21 22:00:00 2016
  */
 jQuery.fn.printMe = function(options){
 
@@ -36,7 +36,7 @@ jQuery.fn.printMe = function(options){
 		for(i in settings.path){
 			w.document.write('<link rel="stylesheet" href="'+settings.path[i]+'">');
 		}
-
+		
 		// Close the head
 		w.document.write('</head><body>');
 
